@@ -1,0 +1,262 @@
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  nav .right {
+    display: none;
+  }
+  nav .left {
+    flex-direction: column;
+    margin: auto;
+  }
+  .searchbox {
+    margin-left: -10px;
+    width: 80px;
+  }
+  .bannerbox {
+    flex-direction: column;
+  }
+  .bannerbox2 {
+    width: 90%;
+    margin: auto;
+    margin-top: -50px;
+  }
+  .bannerbox2 img {
+    width: 100%;
+  }
+  .bancontant {
+    width: 90%;
+  }
+  .bancontant h2 {
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    color: #101828;
+  }
+  .bancontant p {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .bancontant button {
+    margin-top: 5px;
+    padding: 10px 12px;
+    margin: 0px 70px;
+  }
+  .infotextbox {
+    width: 90%;
+    margin-top: 10%;
+  }
+  .infotextbox h3 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .infotextbox p {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .infoboxinner {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    margin-top: 20%;
+  }
+  .infoboxinner .infobox1:hover {
+    transform: scale(1.1);
+  }
+  .categoriesbox {
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+  }
+  .categoriesbox1 h2 {
+    font-size: 25px;
+    line-height: normal;
+    margin-left: 6px;
+  }
+  .categoriesbox1 P {
+    font-size: 15px;
+    margin-left: 6px;
+  }
+  .categoriesbox1 ul li {
+    font-size: 12px;
+  }
+  .categoriesbox1 ul li img {
+    width: 20px;
+  }
+  .categoriesbox2 img {
+    width: 100%;
+  }
+  .coursebox {
+    margin-top: 15%;
+  }
+  .courseboxinner {
+    max-width: 95%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3%;
+    margin: auto;
+  }
+  .coursebox1 {
+    flex-basis: 20%;
+    box-shadow: 0px 0px 8px 3px #f9f5ff;
+    padding: 10px 0px;
+    border-radius: 10px;
+  }
+
+  .coursebox1 h3 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+    margin: 10px 10px;
+  }
+  .coursebox1 p {
+    font-size: 11px;
+    line-height: normal;
+  }
+  .coursebox1 img{
+    width: 15%;
+  }
+  .course-btn {
+    max-width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 15%;
+  }
+  .infotextbox2 {
+    max-width: 1240px;
+    margin: 15% auto;
+    text-align: center;
+  }
+  .infotextbox2 h3 {
+    font-size: 20px;
+    line-height: normal;
+  }
+  .infotextbox2 p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    color: #6b7485;
+  }
+  .connectingbox {
+    flex-direction: column;
+  }
+  .connectingbox1{
+    width: 90%;
+    margin: auto;
+  }
+  .connectingbox2-1 p{
+    font-size: 12px;
+    line-height: normal;
+  }
+  .connectingbox2-1 h3{
+    margin-left: 10px;
+  }
+  .connectingbox2-1 p{
+    margin-left: 10px;
+  }
+  .connectingbox2-1 img{
+    width: 15%;
+    margin-left: 6px;
+  }
+  .connectingbox2-1{
+    margin-left: 20px;
+    margin-top: 10%;
+  }
+  .connectingbox2-1 button{
+    margin-top: 10%;
+    padding: 10px 20px;
+    margin-left: 10px;
+  }
+  .coursecountbox{
+    padding: 10% 0px;
+  }
+  .countcontent h3{
+  font-size: 16px;
+
+  line-height: normal;
+
+  
+  }
+  .countcontent{
+    width: 100%;
+    margin: auto;
+  }
+  .countbtn button{
+    margin: 0px 5px;
+    margin-bottom: 5%;
+
+  }
+  .countbtn{
+    width: 90%;
+    margin: 5% auto;
+    display: flex;
+  }
+
+  .countbtn .btn1{
+    padding: 10px 10px;
+    font-size: 12px;
+  }
+  .countbtn .btn2{
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  .appbox{
+    flex-direction: column;
+  }
+  .appbox2{
+    width: 90%;
+    margin: auto;
+  }
+  .appbox1{
+    width: 90%;
+    margin: auto;
+  }
+  .appbox1 h3{
+    font-size: 30px;
+  }
+  .appbox1 p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .appbox1 .imgbox img{
+    width: 30%;
+  }
+  .appbox1 .imgbox{
+    margin-top: 7%;
+    
+  }
+  .appbox1 label{
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 20px;
+  }
+  .appbox1 .callbox{
+    width: 100%;
+    align-items: center;
+  }
+  .appbox1 .callbox input{
+    width: 60%;
+  }
+  .appbox1 .callbox button{
+    padding: 7px 10px;
+  }
+  .footerinner{
+    width: 90%;
+    margin: auto;
+  }
+  .footerinner p{
+    font-size: 12px;
+  }
+  .footerinner2-1-1{
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    
+  }
+  .footerinner2-1{
+    margin: 5% 0px;
+  }
+  
+}
+

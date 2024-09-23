@@ -1,0 +1,201 @@
+@media only screen and (min-width:0px) and (max-width:500px) {
+    nav {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner_inner {
+        flex-direction: column;
+    }
+
+    .banner-form::after {
+        display: none;
+    }
+
+    .banner_inner .banner-content h1 {
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    .banner-content h1 span img {
+        display: none;
+
+
+    }
+
+    .banner-content-btn .book {
+        padding: 10px 10px;
+        font-size: 16px;
+
+    }
+
+    .formbox {
+        margin-bottom: 6%;
+
+    }
+
+    .formbox button {
+        width: 200px;
+    }
+
+    .about h3 {
+        font-size: 14px;
+
+    }
+
+    .about .about_inner {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    /* .highlights_inner h4{
+        font-size: 16px;
+       text-align: center;
+    }
+    .highlights-box{
+        width: 60%;
+       display: flex;
+       flex-direction: column;
+        /* text-align: center; */
+    /* display: none; */
+
+    .container-2 {
+        padding: 20px 0px;
+    }
+
+    .container-2>h2 {
+        text-align: center;
+    }
+
+    .container-2>p {
+        text-align: center;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .box-2 {
+        flex-basis: 40%;
+    }
+
+    .digital h3 {
+        font-size: 20px;
+
+    }
+
+    .digital-box-inner {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .digital-box-inner-1 {
+        text-align: center;
+    }
+
+    .digital-box-inner-1 h5 {
+        text-align: center;
+    }
+
+    .digital-box-inner-1 p {
+        text-align: center;
+    }
+
+    .certi-inner {
+        flex-direction: column;
+    }
+
+    .certi-inner-left .get {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .certi-inner-left .get h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .certi-inner-left .get p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .certi-inner-left .button {
+        text-align: center;
+    }
+
+    .certi-inner-left .button button {
+        padding: 9px 11px;
+    }
+
+    .container-5>h2 {
+        font-size: 22px;
+    }
+
+    .container-5>p {
+        font-size: 12px;
+    }
+
+    .container-5>.slider {
+        margin-top: 20px;
+        padding: 0;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .container-5>.slider>.box-5 {
+        font-size: 18px;
+    }
+
+    .container-5>.info-box {
+        margin: 0px 8px;
+    }
+
+    .marketing-inner-head h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .marketing-inner-head p{
+        text-align: center;
+        font-size: 16px;
+    }
+    .marketing-inner-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .marketing-inner-box-1{
+        text-align: center;
+    }
+    .marketing-inner-box-1 .box-1-text h6{
+        font-weight: 500;
+        text-align: center;
+    }
+    .marketing-inner-box-1 .box-1-text p{
+        text-align: center;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .students-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-9>h2{
+        font-size: 18px;
+      }
+      footer>.upper-sec>p{
+        font-size: 12px;
+        font-weight: lighter;
+      }
+      footer>.lower-sec>p{
+        font-size: 12px;
+        font-weight: lighter;
+      }
+     
+
+
+
+}

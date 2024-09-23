@@ -1,0 +1,130 @@
+@media only screen and (min-width:0px) and (max-width:575px){
+    header nav .right{
+        display: none;
+    }
+    header nav{
+        justify-content: center;
+    }
+    header nav .right{
+        margin-right: 0px;
+    }
+    .banner {
+        height: auto;
+    }
+    .main {
+        justify-content: center;
+    }
+    .main .left{
+        flex-basis: 90%;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .main .left h2{
+        font-size: 18px;
+        line-height: 40px;
+        padding: 10px 0px;
+        letter-spacing: 0px;
+    }
+    .main .left .big{
+        font-size: 30px;
+    }
+    .main .left h3{
+        font-size: 18px;
+        padding: 5px 0px;
+    }
+    .main .left p{
+        font-size: 18px;
+        padding: 5px 0px;
+    }
+    .main .right{
+        flex-basis: 90%;
+        margin: 0;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .main .right input{
+        margin: 2% 5%;
+    }
+    #small{
+        width: 80%;
+    }
+    .yellow 
+    {
+        width: 60%;
+        padding: 10px 0px;
+        text-align: center;
+        margin: auto;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .section{
+        grid-template-columns: 90%;
+        justify-content: center;
+
+    }
+
+    .grid-box{
+        grid-template-columns: 45% 45%;
+        grid-gap: 5px;
+        justify-content: center;
+    }
+    .heading2{
+        max-width:200px;
+        font-size: 20px;
+    }
+    .para2{
+        font-size: 14px;
+        width: 90%;
+        text-align: center;
+    }
+    .parts2{
+        flex-basis: 45%;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .heading3{
+        max-width:250px;
+        font-size: 20px;
+    }
+    .big-box{
+        max-width: 80%;
+        margin: auto;
+    }
+    .big-box p{
+        padding-top: 130px;
+    }
+    .big-box .small-box{
+        position: absolute;
+        top: 2%;
+        left: 20%;
+    }
+    .img-section .none{
+        display: none;
+    }
+    .img-section img{
+        width: 60%;
+        margin: auto;
+    }
+    .containerW {
+        justify-content: center;
+    }
+    .containerW .right{
+        flex-basis: 90%;
+        margin: 10px 0px;
+    }
+    .containerW .left{
+        flex-basis: 90%;
+        margin: 10px 0px;
+    }
+    .address{
+        justify-content: center;
+        text-align: center;
+    }
+    .address .p1, .p2, .p3{
+        flex-basis: 95%;
+    }
+    .videos>.part{
+        flex-basis: 90%;
+    }
+
+}
